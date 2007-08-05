@@ -1,0 +1,11 @@
+all: wludata.exe
+
+wludata.obj: wludata.c
+	tcc -c -owludata.obj wludata.c
+
+wludata.exe: wludata.obj
+	tcc -owludata.exe wludata.obj
+
+clean:
+	del wludata
+	del *.obj
