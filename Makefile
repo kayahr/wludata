@@ -1,4 +1,4 @@
-CFLAGS=-O2 -Wall -Werror
+CFLAGS=-O2
 
 all: wludata
 
